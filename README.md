@@ -34,7 +34,8 @@ The main challenge is the highly imbalanced nature of the dataset, where hate sp
 
 The dataset used for this project consists of `31,962` labeled tweets. Each entry includes a unique tweet ID, a label (0 for non-hate speech, 1 for hate speech), and the tweet text itself.
 
-*   **Source:** [Insert Dataset Source Link Here if publicly available, e.g., from a competition or academic paper]
+*   **Source:** The dataset is provided in this repository along with other files
+* 
 *   **File Name:** `train_E6oV3lV.csv`
 *   **Content:** Contains tweet text and a binary label indicating hate speech presence.
 

@@ -36,7 +36,7 @@ The dataset used for this project consists of `31,962` labeled tweets. Each entr
 
 *   **Source:** The dataset is provided in this repository along with other files
 * 
-*   **File Name:** `train_E6oV3lV.csv`
+*   **File Name:** `hate_speech_tweets.csv`
 *   **Content:** Contains tweet text and a binary label indicating hate speech presence.
 
 ## 3. Methodology
@@ -45,7 +45,7 @@ The project follows a standard machine learning pipeline for text classification
 
 ### Data Loading and Initial Exploration
 
-*   **Initial Data Loading:** Loaded the `train_E6oV3lV.csv` into a Pandas DataFrame.
+*   **Initial Data Loading:** Loaded the `hate_speech_tweets.csv` into a Pandas DataFrame.
 *   **Class Distribution Analysis:** Performed initial EDA to understand the distribution of labels, revealing a significant class imbalance (approx. 7% hate speech).
 *   **Tweet Length Analysis:** Examined the character length distribution of tweets for both classes.
 *   **N-gram Analysis:** Investigated common bigrams in both hate speech and non-hate speech to identify frequent phrases.
@@ -101,7 +101,7 @@ To run this notebook locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YourUsername/YourRepoName.git
+    git clone https://github.com/Shreyaaasingh/twitter-tweets-hate-speech-detection-nlp-project.git
     cd YourRepoName
     ```
 2.  **Create a virtual environment (recommended):**

@@ -1,6 +1,7 @@
 # twitter-tweets-hate-speech-detection-nlp-project
 An NLP project for detecting hate speech in tweets using machine learning models and TF-IDF features.
 
+# Hate Speech Detection in Tweets
 
 ## Project Overview
 
@@ -34,8 +35,7 @@ The main challenge is the highly imbalanced nature of the dataset, where hate sp
 
 The dataset used for this project consists of `31,962` labeled tweets. Each entry includes a unique tweet ID, a label (0 for non-hate speech, 1 for hate speech), and the tweet text itself.
 
-*   **Source:** The dataset is provided in this repository along with other files
-* 
+*   **Source:** The dataset is provided in the repository.
 *   **File Name:** `hate_speech_tweets.csv`
 *   **Content:** Contains tweet text and a binary label indicating hate speech presence.
 
@@ -102,7 +102,7 @@ To run this notebook locally, follow these steps:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Shreyaaasingh/twitter-tweets-hate-speech-detection-nlp-project.git
-    cd YourRepoName
+    cd twitter-tweets-hate-speech-detection-nlp-project
     ```
 2.  **Create a virtual environment (recommended):**
     ```bash
@@ -125,8 +125,8 @@ To run this notebook locally, follow these steps:
 
 ## 6. Usage
 
-1.  **Data Placement:** Ensure the `train_E6oV3lV.csv` dataset is placed in the expected path (e.g., `/content/drive/MyDrive/NLP/` if running in Google Colab, or a designated `data/` folder if running locally).
-2.  **Run the Notebook:** Open the `[Your-Notebook-Name].ipynb` file (e.g., `Hate_Speech_Detection.ipynb`) in a Jupyter environment (like Jupyter Lab, Jupyter Notebook, or Google Colab) and execute the cells sequentially.
+1.  **Data Placement:** Ensure the `hate_speech_tweets.csv` dataset is placed in the expected path (e.g., `/content/drive/MyDrive/NLP/` if running in Google Colab, or a designated `data/` folder if running locally, usually at the root of your repository).
+2.  **Run the Notebook:** Open the `TwitterSentimentAnalysis.ipynb` file (e.g., `Hate_Speech_Detection.ipynb`) in a Jupyter environment (like Jupyter Lab, Jupyter Notebook, or Google Colab) and execute the cells sequentially.
 
 ## 7. Future Work
 
@@ -139,4 +139,5 @@ To run this notebook locally, follow these steps:
 
 ## 8. License
 
-This project is licensed under the [Your Chosen License, e.g., MIT License] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License Version 2.0 - see the [LICENSE](LICENSE) file for details.
+
